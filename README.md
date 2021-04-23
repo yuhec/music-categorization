@@ -30,10 +30,10 @@ Merci d'utiliser la virgule comme séparateur
 
 ## Comment lancer le projet ?
 
-1- Lancer 00.Get Data
-2- Lancer 02.Preprocessing
-3- Lancer 03.Models
-4- Lancer 04.Test pred
+- 1 - Lancer 00.Get Data
+- 2 - Lancer 02.Preprocessing
+- 3 - Lancer 03.Models
+- 4 - Lancer 04.Test prediction
 
 
 ## Models performances Validation Data
