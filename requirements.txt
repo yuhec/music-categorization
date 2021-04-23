@@ -1,0 +1,7 @@
+pip
+pandas
+numpy
+seaborn
+opencv-python-headless
+scikit-learn
+xgboost
