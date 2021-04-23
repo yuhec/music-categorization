@@ -6,39 +6,38 @@
 - Laëtitia CONSTANTIN
 - Mouna DAHMANI
 
-# TD de machine Learning : Catégorisation musicale
-
 **Elective** : Machine Learning   
 **Professeur** : Théophile Ravillion   
-**Date** : Vendredi 23 Avril 2021
+**Date** : Friday 23 Avril 2021
 
-## **Contexte**
-Vous travaillez chez Deezer, département Data Science, félicitations.
-D'habiles ingénieurs musicologues ont mis au point un jeu de données contenant des informations sur des morceaux de musique. 
-Avec quelques transformées de Fourier et autres joyeusetés propres à leur art, ils ont mis au point deux jeux de données contenant de nombreux indicateurs décrivant un morceau de musique.
-Ils comptent sur vous pour mettre au point un algorithme capable d'identifier le genre musical d'un morceau sur la base des différents indicateurs qu'ils ont mis au point.
-Vous vous apprétiez à leur demander des informations concernant ces variables mais vous constatez qu'ils sont partis en séminaire d'entreprise et que vous vous retrouvez tout seul avec un jeu d'entrainement étiqueté, un jeu de test et un post-it goguenard de votre chef qui vous demande de faire des prédictions précises sur le jeu de test d'ici 16h.
+## **Context**
+You work at Deezer, Data Science department, congratulations.
+Some clever music engineers have developed a dataset containing information about pieces of music. 
+With a few Fourier transforms and other tricks of their trade, they have developed two datasets containing many indicators describing a piece of music.
+They are counting on you to develop an algorithm that can identify the musical genre of a piece of music based on the different indicators they have developed.
+You are apprehensive about asking them for information about these variables, but you realize that they are away on a company retreat and you are left alone with a labeled practice set, a test set, and a mocking post-it note from your boss asking you to make accurate predictions about the test set by 4pm.
 
-## Défi :
-Modéliser le problème, construire un modèle et faire une prédiction de la catégorie à laquelle appartient chaque élément du fichier test.csv à l'aide d'un modèle aussi simple et performant que possible.
 
-## Livrable
-Un projet github contenant des notebooks (dans le dossier model_builder) + un fichier prédictions.csv contenant les prédictions faites sur le jeu de test
+## Challenge :
+Model the problem, build a model and make a prediction of which category each item in the test.csv file belongs to using a model that is as simple and efficient as possible.
 
-En header le nom des colonnes (music_id et prediction) et pour chacun des morceaux la catégorie prédite.
-Merci d'utiliser la virgule comme séparateur 
+## Report
+A github project containing notebooks (in the model_builder folder) + a predictions.csv file containing the predictions made on the test set.
 
-## Comment lancer le projet ?
+In header the name of the columns (music_id and prediction) and for each song the predicted category.
+Please use the comma as separator.
 
-- 1 - Lancer 00.Get Data
-- 2 - Lancer 02.Preprocessing
-- 3 - Lancer 03.Models
-- 4 - Lancer 04.Test prediction
+## How to launch the project?
+
+- 1 - Launch 00.Get Data
+- 2 - Launch 02.Preprocessing
+- 3 - Launch 03.Models
+- 4 - Launch 04.Test prediction
 
 
 ## Models performances Validation Data
 
-Le modèle le plus performant est le SVC (avec une feature selection Lasso) avec un score de 0.78 et 0.78 d'accuracy.
+The best performing model is the SVC (with a Lasso feature selection) with a score of 0.78 and 0.78 accuracy.
 
 
 |  PCA |  Feature selection  |     Normalization        |  Model                    | Parameters                                                   |  Metrics       | Score           | Comments       |
